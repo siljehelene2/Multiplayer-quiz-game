@@ -1,0 +1,103 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    color: black;
+    background-color: #2198A6;
+}
+
+.choice-container2 {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    color: black;
+    background-color: #F55A61
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    color: white;
+}
+
+.choice-text2 {
+    padding: 1.5rem;
+    width: 100%;
+    color: white;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+
+/* Hud */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+.everything {
+    display: flex;
+    justify-content: space-between;
+}
+
+#player1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+#player2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 939px) {
+
+#left-player {
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+#right-player {
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+}
+/*
+@media only screen and (min-width: 940px) {
+
+    #left-player {
+        margin-left: 8rem;
+        margin-right: 1rem;
+    }
+    
+    #right-player {
+        margin-left: 1rem;
+        margin-right: 8rem;
+    }
+    
+    }
+
+    */
